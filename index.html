@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---------------UNICONS------------------------>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!---------------CSS------------------------>
+    <script src="https://kit.fontawesome.com/d7e44731af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Assets/CSS/Style.css">
+    <!---------------FAVICON------------------------>
+    <link rel="shortcut icon" href="/Assets/gifs/shadow wizaed.png" type="image/x-icon">
+    
+    <title>Portafolio JRDM</title>
+</head>
+<body>
+    <!---------------HEADER------------------------>
+    <div class="Container">
+        <nav class="header">
+            <div class="nav-logo">
+                <p class="nav-name">Julián Rodriguez de Malta</p>
+                <SPAN> </SPAN>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">¿Quién soy yo?</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Proyectos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contacto</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn" onclick="redirectToLoginPage()">Iniciar Sesión</button>
+
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" class="BtnHamburger" onclick="menuFunction()"></i>
+            </div>
+        </nav>
+    </div>
+
+    <!---------------MAIN------------------------>
+    <main class="wrapper">
+        <section class="featured-box" id="home">
+            <div class="featured-text">
+                <div class="featured-text-card">
+                    <span>Julián Rodriguez de Malta</span>
+                </div>
+                <div class="featured-name">
+                    <p>Soy <span class="typedText"> JRDM</span></p>
+                </div>
+                <div class="featured-text-info">
+                    <p>
+                        Soy sebastián Molina, ilustrador y diseñador gráfico oriundo de la ciudad de León, Guanajuato. soy amante de la web antigua, los váquero y la brujería.
+
+Toda mi arte se inspira en mis propias interpretaciones de distintas obras de arte sacro, el libro vaquero y otras novelas de antaño publicadas en México; cosas artúricas fantásticas como las obras de Brandon Sanderson y el arte de Dungeons&Dragons; El hermetismo mágico y distintas corrientes y estudios de la magia; distintas obras postmodernas ya sean literarias, cinematográficas y de arte plástica; El cyberpunk y el costumbrismo mexicano, así como el realismo mágico. En fin, todo un repertorio de inspiración llegan a mi ente cuando creo mis distintas propuestas.
+
+En esta página te adentrarás en lo más recóndito de mi mente, disfruta de este viaje entre distintas épocas, intenta inmiscuirte en las narrativas que creo con cada una de mis propuestas y de ser posible, contrátame :)
+                        
+                        
+                    </p>
+                </div>
+                <div class= "featured-text-btn">
+                    <button class="btn blue-btn">dame chamba</button>
+                    <button class="btn"> Descarga el CV <i class="uil uil-file-download-alt"></i> </button>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="/Assets/gifs/segunda.jpg" alt="avatar">
+                </div>
+            </div>
+        </section>
+
+        
+       
+
+        <!-----------------------------SECTION PROJECTS------------------------------------------>
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Proyectos</h1>
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="uil uil-briefcase-alt"></i>
+                    <h3>Completados</h3>
+                    <label> 68 proyectos terminados</label>
+                </div>
+
+                <div class="project-box">
+                    <i class="uil uil-users-alt"></i>
+                    <h3>Clientes</h3>
+                    <label> 1 cliente feliz</label>
+                </div>
+
+                <div class="project-box">
+                    <i class="uil uil-award"></i>
+                    <h3>Experiencia</h3>
+                    <label> 7 year in the field</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Contáctame</h1>
+                <span> ¿Tienes algo en mente? ¡encárgamelo aquí!</span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2> contacto <i class="uil uil-corner-right-down"></i> </h2>
+                        <p><i class="uil uil-envelope"></i> Email: sefelizsmr@outlook.com</p>
+                        <p><i class="uil uil-phone"></i> Tel: 477 666 6969</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <div class="form-inpud">
+                            <input type="text" class="input-field" placeholder="Name">
+                            <input type="text" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn"> Enviar <i class="uil uil-message"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Barra de redes sociales -->
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </footer>
+          
+    </main>
+    
+    
+ 
+
+    <!---------------TYPING IN JS------------------------>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!---------------SCROLL REVEAL IN JS------------------------>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!---------------MAIN JS------------------------>
+    <script src="/Assets/JS/main.js"></script>
+    <script src="https://kit.fontawesome.com/d7e44731af.js" crossorigin="anonymous"></script>
+</body>
+</html>
